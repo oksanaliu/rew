@@ -1,4 +1,11 @@
 /* Загальні стилі */
+:root {
+    --green: #4dc274;
+    --green-accent: #bee8cc;
+    --white: #fff;
+    --black: #121417;
+}
+
 body {
     color: var(--black);
     font-family: 'Manrope', sans-serif;
