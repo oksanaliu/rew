@@ -165,7 +165,12 @@ h3 {
     color: var(--black);
 }
 
-.testimonial-card:nth-child(n+2) {
+.anna-card {
+    display: block;
+}
+
+.mykhailo-card,
+.victoria-card {
     display: none;
 }
 
@@ -184,11 +189,12 @@ h3 {
         gap: 32px;
     }
 
-    .testimonial-card {
+    .anna-card,
+    .mykhailo-card {
         display: block;
     }
 
-    .testimonial-card:nth-child(n+3) {
+    .victoria-card {
         display: none;
     }
 
@@ -224,7 +230,9 @@ h3 {
         gap: 32px;
     }
 
-    .testimonial-card {
+    .anna-card,
+    .mykhailo-card,
+    .victoria-card {
         display: block;
 
         max-width: 336px;
