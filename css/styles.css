@@ -122,6 +122,7 @@ h3 {
     align-items: center;
     background-color: var(--green);
     border-radius: 8px;
+    margin-top: 20px;
     padding: 10px;
     height: 78px;
     margin: 0 auto 16px;
@@ -216,6 +217,7 @@ h3 {
     }
 
     .testimonial-header {
+        margin-top: 32px;
 
         margin-bottom: 32px;
     }
@@ -261,6 +263,7 @@ h3 {
     }
 
     .testimonial-header {
+        margin-top: 32px;
 
         margin-bottom: 32px;
     }
