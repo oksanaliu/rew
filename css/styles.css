@@ -166,6 +166,7 @@ h3 {
 .testimonial-text {
     font-family: Manrope;
     padding: 16px;
+    box-sizing: border-box;
     font-size: 14px;
     line-height: 1.5;
     color: var(--black);
