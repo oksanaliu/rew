@@ -205,7 +205,6 @@ h3 {
         gap: 32px;
         padding: 0 32px;
         padding: 0 16px;
-        max-width: 684px;
     }
 
     .anna-card,
@@ -265,7 +264,6 @@ h3 {
         grid-template-columns: repeat(3, 1fr);
         gap: 32px;
         padding: 0 32px;
-        max-width: 1024px;
 
     }
 
