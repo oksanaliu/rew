@@ -101,15 +101,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* Вирівнює елементи горизонтально */
+    flex-direction: row;
     background-color: var(--green);
     border-radius: 8px;
     padding: 16px;
-    /* Встановлює однакові відступи з усіх боків */
-    max-width: 295px;
-    height: 78px;
-    margin: 0 auto 16px;
-    /* Вирівнює блок по центру та додає відступ знизу */
+    margin-bottom: 16px;
+    width: calc(100% - 32px);
 
 }
 
