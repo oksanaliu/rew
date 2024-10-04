@@ -107,6 +107,7 @@ h3 {
     margin: 0 auto;
 }
 
+/* 
 .testimonial-header {
     display: flex;
     align-items: center;
@@ -116,7 +117,7 @@ h3 {
     height: 78px;
     margin: 0 auto 16px;
     max-width: 295px;
-}
+} */
 
 /* Стилі для заголовка картки (зображення і текст) */
 .testimonial-header {
