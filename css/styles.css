@@ -57,14 +57,18 @@ h3 {
     color: #888;
 }
 
-/* Картки відгуків */
+/* Контейнер для відгуків */
 .testimonial-cards {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 24px;
-    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    justify-items: center;
+    align-items: start;
+    padding: 0 20px;
 }
 
+/* Картки відгуків */
 .testimonial-card {
     width: 100%;
     max-width: 335px;
@@ -116,12 +120,12 @@ h3 {
 
     .victoria-card {
         display: none;
+        /* Приховати третю картку на планшеті */
     }
 
     .testimonial-card {
         width: 100%;
         max-width: 336px;
-        height: 326px;
         padding: 24px;
     }
 
@@ -132,7 +136,7 @@ h3 {
 }
 
 /* Стилі для десктопів */
-@media only screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
     .testimonial-section {
         padding: 80px 0;
     }
@@ -144,11 +148,16 @@ h3 {
 
     .testimonial-card {
         max-width: 336px;
-        height: 326px;
+        padding: 24px;
     }
 
     .testimonial-description {
         font-size: 18px;
         margin-bottom: 40px;
+    }
+
+    .victoria-card {
+        display: block;
+        /* Показати всі картки на десктопі */
     }
 }
