@@ -97,6 +97,16 @@ h3 {
 
 }
 
+.testimonial-card {
+    width: calc(100% - 32px);
+    max-width: 335px;
+    max-height: 326px;
+    background-color: #f3f5f6;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
 .testimonial-header {
     display: flex;
     align-items: center;
