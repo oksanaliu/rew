@@ -114,6 +114,10 @@ h3 {
         gap: 32px;
     }
 
+    .victoria-card {
+        display: none;
+    }
+
     .testimonial-card {
         width: 100%;
         max-width: 336px;
