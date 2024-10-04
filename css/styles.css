@@ -100,18 +100,19 @@ h3 {
 .testimonial-header {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    /* Вирівнює елементи горизонтально */
     background-color: var(--green);
     border-radius: 8px;
-    padding: 32px 16px;
-    /* Верхній та нижній відступ - 32px, боковий - 16px */
-    /* Врахування бокових відступів для центрування */
+    padding: 16px;
+    /* Встановлює однакові відступи з усіх боків */
     max-width: 295px;
     height: 78px;
-    margin: 32px 16px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 0 auto 16px;
+    /* Вирівнює блок по центру та додає відступ знизу */
 
 }
+
 
 
 .testimonial-header img {
