@@ -187,19 +187,21 @@ h3 {
     .testimonial-card:nth-child(3) {
         display: none;
     }
+
+    .testimonial-card {
+        width: 100%;
+        max-width: 336px;
+        height: 326px;
+    }
+
+    .testimonial-description {
+        font-size: 18px;
+        margin-bottom: 64px;
+    }
+
 }
 
-.testimonial-card {
-    width: 100%;
-    max-width: 336px;
-    height: 326px;
-}
 
-.testimonial-description {
-    font-size: 18px;
-    margin-bottom: 64px;
-}
-}
 
 /* Стилі для десктопів */
 @media only screen and (min-width: 1280px) {
