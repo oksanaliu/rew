@@ -132,6 +132,9 @@ h3 {
     max-width: 295px;
     height: 78px;
     margin: 32px 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
 }
 
 .testimonial-header img {
