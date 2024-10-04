@@ -1,0 +1,261 @@
+body {
+    color: var(--black);
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--white);
+}
+
+h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.053;
+    /* 105.263% */
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+        line-height: 1.167;
+        /* 116.667% */
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125;
+    /* 112.5% */
+    letter-spacing: -0.64px;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 40px;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: -0.8px;
+    }
+}
+
+h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+:root {
+    scroll-behavior: smooth;
+
+    --black: #121417;
+    --green: #4dc274;
+    --green-linear: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
+    --light-green: #d4fde1;
+    --gray: #f3f5f6;
+    --white: #fff;
+    --green-accent: #bee8cc;
+}
+
+/* Styles for Mobile devices */
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 64px;
+    }
+}
+
+.about-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+    font-family: Manrope;
+    letter-spacing: -0.02em;
+    position: relative;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 39px;
+    height: 12px;
+    background-color: var(--green-accent);
+    border-radius: 8px 0px 0px 0px;
+}
+
+.about-description {
+    font-family: Manrope;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #12141780;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    width: auto;
+    background-color: var(--gray);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 160px;
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.card-number {
+    font-size: 28px;
+    font-family: Manrope;
+    color: var(--green);
+    font-weight: 700;
+}
+
+.card-description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 16px;
+    font-family: Manrope;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.memoji-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 335px;
+    height: 313px;
+    margin-top: 16px;
+    background-color: var(--green);
+    border-radius: 30px;
+
+}
+
+.memoji-image {
+    width: 254px;
+    height: 211px;
+    border-radius: 999px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .card {
+        width: calc(50% - 16px);
+    }
+
+    .about-title {
+        font-size: 40px;
+    }
+
+    .about-description {
+        font-size: 18px;
+        margin-bottom: 64px;
+
+    }
+
+    .cards {
+        gap: 32px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .memoji-container {
+        height: 243px;
+        margin-top: 16px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+
+    .about-title {
+        font-size: 40px;
+    }
+
+    .about-description {
+        font-size: 18px;
+        margin-bottom: 64px;
+
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .card {
+        width: 100%;
+        height: 160px;
+    }
+
+    .cards-and-memoji {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .memoji-container {
+        width: 310px;
+        height: 352px;
+        margin-left: 32px;
+    }
+}
