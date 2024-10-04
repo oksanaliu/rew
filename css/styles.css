@@ -98,13 +98,12 @@ h3 {
 
 .testimonial-cards {
     display: grid;
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
     justify-content: center;
-    align-items: center;
-    align-items: start;
     max-width: 325px;
     margin: 0 auto;
-
+    padding: 0 16px;
 }
 
 .testimonial-card {
@@ -195,6 +194,8 @@ h3 {
     .testimonial-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
+        padding: 0 32px;
+
     }
 
     .anna-card,
@@ -251,6 +252,7 @@ h3 {
     .testimonial-cards {
         grid-template-columns: repeat(3, 1fr);
         gap: 32px;
+        padding: 0 32px;
     }
 
     .anna-card,
