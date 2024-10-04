@@ -60,6 +60,7 @@ h3 {
     letter-spacing: -0.02em;
     position: relative;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .highlight {
@@ -91,6 +92,7 @@ h3 {
     margin-top: 16px;
     max-width: 600px;
     color: #12141780;
+    margin: 0 auto 40px;
 
 }
 
@@ -98,7 +100,7 @@ h3 {
 .testimonial-cards {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 32px;
     justify-content: center;
 }
 
@@ -106,8 +108,8 @@ h3 {
     width: 100%;
     max-width: 335px;
     background-color: #f3f5f6;
-    padding: 20px;
     border-radius: 16px;
+    padding: 32px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -121,6 +123,7 @@ h3 {
     width: 295px;
     height: 78px;
     margin-bottom: 20px;
+
 }
 
 .testimonial-header img {
@@ -149,7 +152,7 @@ h3 {
 
 .student-role {
     font-family: Manrope;
-
+    text-align: left;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.7);
     margin: 0;
@@ -206,8 +209,14 @@ h3 {
     .testimonial-description {
         font-size: 18px;
         margin-bottom: 64px;
+        margin: 0 auto 64px;
+
     }
 
+    .testimonial-header {
+
+        margin-bottom: 32px;
+    }
 }
 
 
@@ -241,10 +250,16 @@ h3 {
     .testimonial-description {
         font-size: 18px;
         margin-bottom: 64px;
+        margin: 0 auto 64px;
+
     }
 
     .testimonial-card {
         display: block;
     }
 
+    .testimonial-header {
+
+        margin-bottom: 32px;
+    }
 }
