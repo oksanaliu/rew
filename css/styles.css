@@ -184,8 +184,11 @@ h3 {
         gap: 32px;
     }
 
-    /* Приховуємо третю картку */
-    .testimonial-card:nth-child(3) {
+    .testimonial-card {
+        display: block;
+    }
+
+    .testimonial-card:nth-child(n+3) {
         display: none;
     }
 
@@ -231,6 +234,10 @@ h3 {
     .testimonial-description {
         font-size: 18px;
         margin-bottom: 64px;
+    }
+
+    .testimonial-card {
+        display: block;
     }
 
 }
