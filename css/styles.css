@@ -97,42 +97,37 @@ h3 {
 
 }
 
+.testimonial-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
 .testimonial-card {
-    width: calc(100% - 32px);
+    width: 100%;
     max-width: 335px;
-    max-height: 326px;
     background-color: #f3f5f6;
     border-radius: 16px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
 }
 
+/* Заголовок картки */
 .testimonial-header {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     background-color: var(--green);
     border-radius: 8px;
-    padding: 10px;
-    height: 78px;
-    margin: 0 auto 16px;
-    max-width: 295px;
-}
-
-/* Стилі для заголовка картки (зображення і текст) */
-.testimonial-header {
-    display: flex;
-    align-items: center;
-    background-color: var(--green);
-    border-radius: 8px;
-    padding: 32px 16px;
-    /* Верхній та нижній відступ - 32px, боковий - 16px */
-    /* Врахування бокових відступів для центрування */
+    padding: 16px;
+    width: calc(100% - 32px);
     max-width: 295px;
     height: 78px;
-    margin: 32px 16px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-
+    margin: 32px auto 16px;
+    /* Центрує та додає відступ зверху та знизу */
 }
 
 .testimonial-header img {
