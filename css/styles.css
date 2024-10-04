@@ -120,13 +120,15 @@ h3 {
 .testimonial-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--green);
     border-radius: 8px;
-    margin-top: 20px;
     padding: 10px;
+    width: 90%;
+    /* Відсоткове значення для центрування */
+    max-width: 295px;
     height: 78px;
     margin: 0 auto 16px;
-    max-width: 295px;
 }
 
 .testimonial-header img {
