@@ -99,7 +99,7 @@ h3 {
 
 .testimonial-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr;
     gap: 16px;
     justify-content: center;
     align-items: stretch;
