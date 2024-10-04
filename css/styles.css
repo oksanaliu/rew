@@ -165,7 +165,7 @@ h3 {
 /* Текст відгуку */
 .testimonial-text {
     font-family: Manrope;
-
+    padding: 16px;
     font-size: 14px;
     line-height: 1.5;
     color: var(--black);
