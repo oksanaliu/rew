@@ -98,10 +98,12 @@ h3 {
 
 .testimonial-cards {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 16px;
     justify-content: center;
     align-items: center;
+    align-items: start;
+    max-width: 325px;
+    margin: 0 auto;
 
 }
 
