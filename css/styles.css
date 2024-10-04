@@ -101,10 +101,10 @@ h3 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 32px;
     justify-content: center;
-    align-items: start;
-    max-width: 325px;
+    align-items: stretch;
+    padding: 0 32px;
+    max-width: 1024px;
     margin: 0 auto;
-    padding: 0 16px;
 }
 
 .testimonial-card {
