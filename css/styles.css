@@ -165,14 +165,8 @@ h3 {
     color: var(--black);
 }
 
-.victoria-card {
+.testimonial-card:nth-child(n+2) {
     display: none;
-    /* Сховати картку Вікторії на планшетах */
-}
-
-.mykhailo-card {
-    display: none;
-    /* Сховати картку Вікторії на планшетах */
 }
 
 /* Стилі для планшетів */
@@ -183,23 +177,28 @@ h3 {
         margin-bottom: 16px;
     }
 
+
     .testimonial-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
     }
 
-
-
-    .testimonial-card {
-        width: 100%;
-        max-width: 336px;
-        height: 326px;
+    /* Приховуємо третю картку */
+    .testimonial-card:nth-child(3) {
+        display: none;
     }
+}
 
-    .testimonial-description {
-        font-size: 18px;
-        margin-bottom: 64px;
-    }
+.testimonial-card {
+    width: 100%;
+    max-width: 336px;
+    height: 326px;
+}
+
+.testimonial-description {
+    font-size: 18px;
+    margin-bottom: 64px;
+}
 }
 
 /* Стилі для десктопів */
@@ -220,6 +219,8 @@ h3 {
     }
 
     .testimonial-card {
+        display: block;
+
         max-width: 336px;
         height: 326px;
     }
@@ -228,4 +229,5 @@ h3 {
         font-size: 18px;
         margin-bottom: 64px;
     }
+
 }
