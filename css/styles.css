@@ -125,7 +125,7 @@ h3 {
     padding: 10px;
     height: 78px;
     margin: 0 auto 16px;
-    max-width: 295px;
+    width: 100%;
 }
 
 .testimonial-header img {
