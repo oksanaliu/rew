@@ -110,19 +110,30 @@ h3 {
 .testimonial-header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
     background-color: var(--green);
     border-radius: 8px;
-    padding: 16px 16px 16px 16px;
-    /* Встановлює верхній/нижній відступ 32px, боковий - 16px */
-    max-width: 295px;
+    padding: 10px;
     height: 78px;
     margin: 0 auto 16px;
-
+    max-width: 295px;
 }
 
+/* Стилі для заголовка картки (зображення і текст) */
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    background-color: var(--green);
+    border-radius: 8px;
+    padding: 32px 16px;
+    /* Верхній та нижній відступ - 32px, боковий - 16px */
+    /* Врахування бокових відступів для центрування */
+    max-width: 295px;
+    height: 78px;
+    margin: 32px 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 
+}
 
 .testimonial-header img {
     width: 50px;
