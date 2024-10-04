@@ -109,6 +109,7 @@ h3 {
 
 .testimonial-card {
     width: 100%;
+    width: 335px;
     max-width: 335px;
     max-height: 326px;
     height: 278px;
@@ -215,6 +216,8 @@ h3 {
 
     .testimonial-card {
         width: 100%;
+        width: 320px;
+
         max-width: 336px;
         height: 326px;
     }
@@ -265,6 +268,7 @@ h3 {
     .mykhailo-card,
     .victoria-card {
         display: block;
+        width: 320px;
 
         max-width: 320px;
         height: 326px;
