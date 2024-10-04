@@ -50,18 +50,18 @@ h3 {
 /* Секція відгуків */
 .testimonial-section {
     text-align: center;
-
+    padding: 100px 0;
 }
 
 .testimonial-title {
     font-size: 32px;
+
     font-weight: 700;
     line-height: 1.125;
     font-family: Manrope;
     letter-spacing: -0.02em;
     position: relative;
     text-align: center;
-    margin-bottom: 16px;
 }
 
 .highlight {
@@ -127,7 +127,6 @@ h3 {
     max-width: 295px;
     height: 78px;
     margin: 32px auto 16px;
-    /* Центрує та додає відступ зверху та знизу */
 }
 
 .testimonial-header img {
@@ -162,13 +161,12 @@ h3 {
     margin: 0;
 }
 
-/* Текст відгуку */
 .testimonial-text {
     font-family: Manrope;
     box-sizing: border-box;
     font-size: 14px;
     line-height: 1.5;
-    color: var(--black);
+    color: #12141780;
     margin: 0 16px;
 }
 
@@ -184,6 +182,9 @@ h3 {
 
 /* Стилі для планшетів */
 @media (min-width: 768px) {
+    .testimonial-text {
+        font-size: 16px;
+    }
 
     .testimonial-title {
         font-size: 40px;
@@ -229,7 +230,16 @@ h3 {
 /* Стилі для десктопів */
 @media only screen and (min-width: 1280px) {
 
+    .testimonial-text {
+        font-size: 16px;
+    }
+
+    .testimonial-section {
+        padding: 100px 62px;
+    }
+
     .testimonial-title {
+
         font-size: 40px;
         margin-bottom: 16px;
     }
