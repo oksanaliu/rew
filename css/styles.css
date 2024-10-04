@@ -104,9 +104,11 @@ h3 {
     flex-direction: row;
     background-color: var(--green);
     border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 16px;
-    width: calc(100% - 32px);
+    padding: 16px 16px 16px 16px;
+    /* Встановлює верхній/нижній відступ 32px, боковий - 16px */
+    max-width: 295px;
+    height: 78px;
+    margin: 0 auto 16px;
 
 }
 
