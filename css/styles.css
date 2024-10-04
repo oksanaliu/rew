@@ -102,11 +102,13 @@ h3 {
     grid-template-columns: 1fr;
     gap: 32px;
     justify-content: center;
+    align-items: center;
 }
 
 .testimonial-card {
     width: 100%;
     max-width: 335px;
+    max-height: 326px;
     background-color: #f3f5f6;
     border-radius: 16px;
     padding: 32px;
@@ -124,6 +126,7 @@ h3 {
     width: 295px;
     height: 78px;
     margin: 0 auto 16px;
+    max-width: 295px;
 }
 
 .testimonial-header img {
